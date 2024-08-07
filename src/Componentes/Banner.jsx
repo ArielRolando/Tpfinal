@@ -9,6 +9,7 @@ const Banner = () => {
         top: '30%',
         width: 'auto',
         height: 'auto',
+        left: '24%',  
     };
 
     let imagenStyle2 = {
@@ -16,7 +17,7 @@ const Banner = () => {
         height: 'auto',
         position: 'absolute',
         top: '30%',    
-        left: '24%',  
+        left: '54%',  
     };
 
     let titleStyle = {

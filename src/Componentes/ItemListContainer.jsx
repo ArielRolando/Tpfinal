@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import arrayProductos from "../assets/json/productos.json";
-import Itemlist from './Itemlist';
+import ItemList from './ItemList'; // Corrección en el nombre del archivo
 import { useParams } from "react-router-dom";
 
 const ItemListContainer = () => {
@@ -21,8 +21,8 @@ const ItemListContainer = () => {
 
     return (
         <div className="container mt-4">
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 ">
-                <Itemlist items={items} />
+            <div className="row">
+                <ItemList items={items} />
             </div>
         </div>
     );

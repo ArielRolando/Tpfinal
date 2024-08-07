@@ -13,7 +13,7 @@ const Derechos = () => {
         width: '1900px',
         position: 'absolute',
         left: '10px',
-        marginTop: '380px' 
+        marginTop: '300px' ,
     };
 
     const textContainerStyle = {
@@ -34,15 +34,29 @@ const Derechos = () => {
     };
 
     return (
-        <div style={containerStyle}>
+        <div className='container'>
+            <div className='row'>
+                <div className='col'>
+                <div style={containerStyle}>
             <br /><br /><br />
             <div style={rowStyle}>
                 <div style={textContainerStyle}>
                     <p style={pStyle1}>Argentina</p>
                     <p style={pStyle2}>2024 Acosta S.R.L todos los derechos reservados</p>
+
+                </div>
+       
                 </div>
             </div>
         </div>
+        </div>
+
+
+
+        </div>
+
+
+
     );
 }
 

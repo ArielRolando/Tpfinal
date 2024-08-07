@@ -17,7 +17,6 @@ const Publicidad = () => {
         width: '100%',
         right:'14px',
         zIndex: '10',
-      
     };
 
     const textContainerStyle = {
